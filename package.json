@@ -1,0 +1,24 @@
+{
+  "name": "cinema",
+  "version": "0.0.1",
+  "description": "Cinema website",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "cinema",
+    "recreate",
+    "cine",
+    "movies",
+    "pop"
+  ],
+  "author": "aperez",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
